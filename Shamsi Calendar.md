@@ -31,4 +31,4 @@ let
     PersianDayNumberofWeek = Table.AddColumn(EnglishDayNameofWeek, "PersianDayNumberofWeek", each if [PersianDayNameOfWeek] = "يكشنبه" then 2 else if [PersianDayNameOfWeek] = "دوشنبه" then 3 else if [PersianDayNameOfWeek] = "سه شنبه" then 4 else if [PersianDayNameOfWeek] = "چهارشنبه" then 5 else if [PersianDayNameOfWeek] = "پنجشنبه" then 6 else if [PersianDayNameOfWeek] = "جمعه" then 7 else if [PersianDayNameOfWeek] = "شنبه" then 1 else null, type number)
 in
     PersianDayNumberofWeek
-
+```
