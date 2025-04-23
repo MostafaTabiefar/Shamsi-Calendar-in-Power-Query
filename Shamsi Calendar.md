@@ -1,3 +1,8 @@
+# Power Query M Code - Persian Date Table Generator
+This code generates a comprehensive date table with both Gregorian and Persian calendar conversions.
+
+```powerquery
+
 let
     StartDate =  #date(2023,1,1),
     EndDate = #date(2027,1,1),
